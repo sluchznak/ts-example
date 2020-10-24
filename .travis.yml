@@ -1,0 +1,15 @@
+dist: bionic
+
+cache:
+  npm: true
+
+env:
+  - CI=true
+
+install:
+  - npm ci --no-audit
+
+script:
+  - npm run lint --if-present
+  - npm run test
+  - npm run build --if-present
