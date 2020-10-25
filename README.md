@@ -1,5 +1,7 @@
 Example of using type-graphql (+ dataloader) + typedi + typeorm
 
+This projects uses https://github.com/jsynowiec/node-typescript-boilerplate as a boilerplate.
+
 ## Usage
 
 First you need to build sources:
